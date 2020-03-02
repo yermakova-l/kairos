@@ -266,10 +266,25 @@ footer {
 #contacts .box-icon svg {
         width: 48px;
         height: 48px; }
+#contacts #social-links {
+    margin-top: 40px;
+    width: 60%;
+    margin: 40px auto 0 auto;
+}
+#contacts #social-links a {
+    display: inline-block;
+    width: 45%;
+}
+
+#contacts #social-links a img {
+    width: 40px;
+    height: 40px;
+}
+
 footer { 
     padding-top: 0; }    
 footer iframe {
-    margin-top: 10px; }
+    margin-top: 30px; }
 .copyright {
     background-color: #333;
     color: white;
@@ -499,7 +514,7 @@ footer iframe {
         justify-content: space-around;
         margin-top: 30px; }
     #contacts .contacts-item {
-        width: 25%;
+        width: 24%;
         margin: 100px 0 0 0;
         height: 250px;
         font-size: 16px; }
@@ -511,7 +526,7 @@ footer iframe {
         width: 84px;
         height: 84px; }
     #contacts .contacts-item h3 {
-        margin-top: 20%;
+        margin-top: 23%;
         font-size: 20px; }
     footer iframe {
         margin-top: 100px; }
@@ -543,5 +558,12 @@ footer iframe {
        font-size: 24px; }
     .blog-article-body {
         text-align: justify;
+    }
+}
+
+@media screen and (min-width: 817px) and (max-width: 1200px) {
+    #contacts .contacts-item {
+        width: 45%;
+        height: auto;
     }
 }
