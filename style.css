@@ -181,6 +181,60 @@ header {
     padding: 15px;
     text-transform: uppercase; }
 
+/*********  COURSE DESCRIPTION  ********/
+.course-container {
+    background-color: #93278f;
+    /*background: rgb(210,93,255);
+    background: linear-gradient(0deg, rgba(210,93,255,1) 0%, rgba(159,30,187,1) 35%, rgba(140,40,137,1) 100%);*/
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+.course-container {
+    width: 100%;
+}
+#course {
+    width: 95%;
+    margin: 0 auto;
+}
+.course-container .price {
+    width: 90%;
+    text-align: center;
+}
+#course .course-header {
+    background: rgb(245,154,3);
+    background: linear-gradient(0deg, rgba(245,154,3,1) 0%, rgba(249,188,1,1) 55%, rgba(255,220,8,1) 100%);
+    padding: 30px;
+    margin-top: 30px;
+}
+#course .course-header h2 {
+    font-size: 28px;
+    color: #93278f;
+}
+#course .course-header h2 span {
+    font-size: 36px;
+}
+#course .course-header p {
+    font-size: 21px;
+}
+#course .course-description h2 {
+    margin-left: 38px;
+    font-size: 36px;
+}
+#course .course-description ul {
+    list-style-type: none;
+    
+}
+#course .course-description ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin-right: 15px;
+    
+}
+
+
+
 /***********  FAQ  ************/
 
 #faq {
@@ -484,6 +538,40 @@ footer iframe {
     
     .service-description {
         margin-bottom: 60px; }
+
+    /*********  COURSE DESCRIPTION  ********/
+    #course {
+        width: 70%;
+        margin: 0 auto 40px auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    #course .course-header {
+        width: 45%;
+        margin-top: 40px;
+    }
+    #course .course-description {
+        width: 45%;
+    }
+   
+    #course .course-header h2 {
+        font-size: 36px;
+    }
+    #course .course-header h2 span {
+        font-size: 50px;
+    }
+    #course .course-header p {
+        font-size: 26px;
+    }
+    #course .course-description h2 {
+        margin-left: 38px;
+        font-size: 36px;
+    }
+    #course .course-description ul li {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    
     
     /***********  FAQ  ************/
     #faq { margin: 20px auto 0 auto; }
@@ -565,5 +653,10 @@ footer iframe {
     #contacts .contacts-item {
         width: 45%;
         height: auto;
+    }
+
+    #course {
+        width: 95%;
+        margin: 0 auto;
     }
 }
