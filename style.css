@@ -184,8 +184,6 @@ header {
 /*********  COURSE DESCRIPTION  ********/
 .course-container {
     background-color: #93278f;
-    /*background: rgb(210,93,255);
-    background: linear-gradient(0deg, rgba(210,93,255,1) 0%, rgba(159,30,187,1) 35%, rgba(140,40,137,1) 100%);*/
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -201,6 +199,15 @@ header {
 .course-container .price {
     width: 90%;
     text-align: center;
+}
+/*.course-container .price a {
+    text-decoration: none;
+    color: white;
+    
+}*/
+.course-container .price a[href^="tel:"] {
+    color: white;
+    text-decoration: none;
 }
 #course .course-header {
     background: rgb(245,154,3);
@@ -229,9 +236,10 @@ header {
 #course .course-description ul li {
     margin-bottom: 15px;
     font-size: 18px;
-    margin-right: 15px;
-    
+    margin-right: 15px;   
 }
+
+
 
 
 
