@@ -183,51 +183,60 @@ header {
 
 /*********  COURSE DESCRIPTION  ********/
 .course-container {
-    background-color: #93278f;
+    /*background-color: #93278f;*/
+    background-color: #811b7e;
     color: #fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 40px;
-}
-.course-container {
+    padding: 30px 0 30px 0;
+    margin-top: 60px;
+    margin-bottom: 40px;
     width: 100%;
 }
-#course {
-    width: 95%;
-    margin: 0 auto;
+.course-container .course-header {
+    margin: 0 15px 0 20px;
+    
 }
-.course-container .price {
-    width: 90%;
+.course-container .course-header h2 {
+    font-size: 26px;
     text-align: center;
 }
-/*.course-container .price a {
-    text-decoration: none;
-    color: white;
-    
-}*/
+.course-container .course-header h2 span {
+    font-size: 46px;
+
+}
+.course-container .course-header p {
+    font-size: 20px;
+    margin: 0 15px 26px 15px;
+}
+#course-title-desktop {
+    display: none;
+}
+#course {
+    margin: 0 auto;
+}
+#course-image {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+#course-image img {
+    width: 100%;
+}
+#course-image p {
+    text-align: center;
+    font-style: italic;
+}
+.course-container .price {
+    text-align: center;
+}
 .course-container .price a[href^="tel:"] {
     color: white;
     text-decoration: none;
 }
-#course .course-header {
-    background: rgb(245,154,3);
-    background: linear-gradient(0deg, rgba(245,154,3,1) 0%, rgba(249,188,1,1) 55%, rgba(255,220,8,1) 100%);
-    padding: 30px;
-    margin-top: 30px;
-}
-#course .course-header h2 {
-    font-size: 28px;
-    color: #93278f;
-}
-#course .course-header h2 span {
-    font-size: 36px;
-}
-#course .course-header p {
-    font-size: 21px;
-}
 #course .course-description h2 {
-    margin-left: 38px;
-    font-size: 36px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 32px;
+    text-align: center;
 }
 #course .course-description ul {
     list-style-type: none;
@@ -238,10 +247,6 @@ header {
     font-size: 18px;
     margin-right: 15px;   
 }
-
-
-
-
 
 /***********  FAQ  ************/
 
@@ -577,18 +582,26 @@ footer iframe {
         margin-bottom: 60px; }
 
     /*********  COURSE DESCRIPTION  ********/
+    
+    .course-container .course-header {
+        width: 800px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #course-image {
+        width: 400px;
+        padding-top: 20px;
+    }
+    
     #course {
-        width: 70%;
+        width: 800px;
         margin: 0 auto 40px auto;
         display: flex;
         justify-content: space-around;
     }
-    #course .course-header {
-        width: 45%;
-        margin-top: 40px;
-    }
+    
     #course .course-description {
-        width: 45%;
+        width: 500px;
     }
    
     #course .course-header h2 {
@@ -605,9 +618,22 @@ footer iframe {
         font-size: 36px;
     }
     #course .course-description ul li {
-        margin-bottom: 15px;
-        font-size: 18px;
+        margin-bottom: 20px;
+        font-size: 20px;
     }
+
+    /*******************/
+   
+    #course-title-desktop {
+        display: block;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    #course-description-header {
+        display: none;
+    }
+    
     
     
     /***********  FAQ  ************/
@@ -737,10 +763,7 @@ footer iframe {
         height: auto;
     }
 
-    #course {
-        width: 95%;
-        margin: 0 auto;
-    }
+    
     .team-item {
         width: 250px;
     }
@@ -750,6 +773,29 @@ footer iframe {
     #services {
         width: 1200px;
         margin: 0 auto;
+    }
+    .course-container #course {
+        width: 1000px;
+    }
+    #course-title-desktop {
+        display: block;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    #course-description-header {
+        display: none;
+    }
+    #course-image {
+        width: 400px;
+        padding-top: 22px;
+    }
+    #course .course-description ul li {
+        margin-bottom: 29px;
+        font-size: 20px;
+    }
+    .course-container .price a[href^="tel:"] {
+        font-size: 36px;
     }
 
     #team {
