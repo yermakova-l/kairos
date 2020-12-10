@@ -10,11 +10,12 @@
     <link rel="apple-touch-icon" sizes="57x57" href="./images/kairos_icon_57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="./images/kairos_icon_72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="./images/kairos_icon_114.png" />
-    <link href="./js/jquery-ui.min.css" rel="stylesheet">
+    <link href="./js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./style.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&amp;subset=cyrillic-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
-    <link defer href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link defer href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132780623-1"></script>
     <script>
@@ -23,9 +24,11 @@
       gtag('js', new Date());
     
       gtag('config', 'UA-132780623-1');
+      gtag('config', 'AW-769992812');
     </script>
-
-    
+    <script> gtag('config', 'AW-769992812/RVFQCOr0z-wBEOzQlO8C', { 'phone_conversion_number': '+380669945381' }); </script>
+    <!-- Event snippet for Кайрос_тел_3 conversion page --> 
+    <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-769992812/QfJECN-c4ewBEOzQlO8C', 'event_callback': callback }); return false; } </script>
 </head>
 <body>
     <header id="main_header" class="nav-down">
@@ -42,7 +45,7 @@
                 <div class="icon-block"><svg style="width:30px;height:30px" viewBox="0 0 24 24"><path fill="#000000" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
                     </svg>
                 </div>
-                <div class='contact_info'><p>Телефонуйте нам:<br><span>+38 066 994 53 81</span></p></div>
+                <div class='contact_info'><p>Телефонуйте нам:<br><span><a onclick="return gtag_report_conversion('tel:+380669945381');" href="tel:+380669945381" >+38 066 994 53 81</a></span></p></div>
             </div>
             
         </div>
@@ -85,13 +88,13 @@
                     <path fill="#8fa464" d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.18L19,6.3V11.22C19,12.92 18.5,14.65 17.65,16.17C16,14.94 13.26,14.5 12,14.5C10.74,14.5 8,14.94 6.35,16.17C5.5,14.65 5,12.92 5,11.22V6.3L12,3.18M12,6A3.5,3.5 0 0,0 8.5,9.5A3.5,3.5 0 0,0 12,13A3.5,3.5 0 0,0 15.5,9.5A3.5,3.5 0 0,0 12,6M12,8A1.5,1.5 0 0,1 13.5,9.5A1.5,1.5 0 0,1 12,11A1.5,1.5 0 0,1 10.5,9.5A1.5,1.5 0 0,1 12,8M12,16.5C13.57,16.5 15.64,17.11 16.53,17.84C15.29,19.38 13.7,20.55 12,21C10.3,20.55 8.71,19.38 7.47,17.84C8.37,17.11 10.43,16.5 12,16.5Z" />
                 </svg>   
            </div>
-           <h2 class='service-header'>Ліквідація підприємства</h2>
-           <p class='service-description'>Якщо бізнес вичерпав себе, вам надалі не цікаво працювати
-                в цьому напрямку – варто ліквідуватись.
-                <br>Ми можемо запропонувати ліквідацію підприємства як у
-                класичному варіанті, так і продаж частки у статутному
-                капіталі іншому власнику.</p>
-                <a class="service-details-button" href='#liquidation'>Детальніше &nbsp;&gt;</a>
+           <h2 class='service-header'>Перевірка та подання річної звітності</h2>
+           <p class='service-description'>Замовивши таку послугу, ви будете 
+               знати реальний стан справ на фірмі. А це можливість
+                виправити недоліки без шкоди для підприємства.<br>
+               Наші фахівці проводять перевірку від 2 тижнів і до 2 місяців. 
+               Усе залежить від того, чи потрібно відновлювати облік і за який період.</p>
+                <a class="service-details-button" href='#year_report'>Детальніше &nbsp;&gt;</a>
        </div>
        <div class='services-item'>
            <div class='service-icon'>
@@ -115,19 +118,6 @@
            бухгалтерського обліку.
            </p>
            <a class="service-details-button" href='#renovation'>Детальніше &nbsp;&gt;</a>
-       </div>
-       <div class='services-item'>
-           <div class='service-icon'>
-                <svg style="width:36px;height:36px" viewBox="0 0 24 24">
-                    <path fill="#8fa464" d="M18.6,6.62C17.16,6.62 15.8,7.18 14.83,8.15L7.8,14.39C7.16,15.03 6.31,15.38 5.4,15.38C3.53,15.38 2,13.87 2,12C2,10.13 3.53,8.62 5.4,8.62C6.31,8.62 7.16,8.97 7.84,9.65L8.97,10.65L10.5,9.31L9.22,8.2C8.2,7.18 6.84,6.62 5.4,6.62C2.42,6.62 0,9.04 0,12C0,14.96 2.42,17.38 5.4,17.38C6.84,17.38 8.2,16.82 9.17,15.85L16.2,9.61C16.84,8.97 17.69,8.62 18.6,8.62C20.47,8.62 22,10.13 22,12C22,13.87 20.47,15.38 18.6,15.38C17.7,15.38 16.84,15.03 16.16,14.35L15,13.34L13.5,14.68L14.78,15.8C15.8,16.81 17.15,17.37 18.6,17.37C21.58,17.37 24,14.96 24,12C24,9 21.58,6.62 18.6,6.62Z" />
-                </svg>
-           </div>
-           <h2 class='service-header'>Страхування працівників</h2>
-           <p class='service-description'>Ми допоможемо вам зорієнтуватися між 
-           різними страховими компаніями та їхніми пропозиціями. Розкажемо про 
-           всі плюси і мінуси приватного страхування підберемо найкращий варіант саме для вас.
-           </p>
-           <a class="service-details-button" href='#insurance'>Детальніше &nbsp;&gt;</a>
        </div>
        <div class='services-item'>
            <div class='service-icon'>
@@ -156,6 +146,20 @@
            </p>
            <a class="service-details-button" href='#auditor'>Детальніше &nbsp;&gt;</a>
        </div>
+       <div class='services-item'>
+        <div class='service-icon'>
+             <svg style="width:36px;height:36px" viewBox="0 0 24 24">
+                 <path fill="#8fa464" d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.18L19,6.3V11.22C19,12.92 18.5,14.65 17.65,16.17C16,14.94 13.26,14.5 12,14.5C10.74,14.5 8,14.94 6.35,16.17C5.5,14.65 5,12.92 5,11.22V6.3L12,3.18M12,6A3.5,3.5 0 0,0 8.5,9.5A3.5,3.5 0 0,0 12,13A3.5,3.5 0 0,0 15.5,9.5A3.5,3.5 0 0,0 12,6M12,8A1.5,1.5 0 0,1 13.5,9.5A1.5,1.5 0 0,1 12,11A1.5,1.5 0 0,1 10.5,9.5A1.5,1.5 0 0,1 12,8M12,16.5C13.57,16.5 15.64,17.11 16.53,17.84C15.29,19.38 13.7,20.55 12,21C10.3,20.55 8.71,19.38 7.47,17.84C8.37,17.11 10.43,16.5 12,16.5Z" />
+             </svg>   
+        </div>
+        <h2 class='service-header'>Ліквідація підприємства</h2>
+        <p class='service-description'>Якщо бізнес вичерпав себе, вам надалі не цікаво працювати
+             в цьому напрямку – варто ліквідуватись.
+             <br>Ми можемо запропонувати ліквідацію підприємства як у
+             класичному варіанті, так і продаж частки у статутному
+             капіталі іншому власнику.</p>
+             <a class="service-details-button" href='#liquidation'>Детальніше &nbsp;&gt;</a>
+    </div>
        
     </div>
     <div class='course-container' id="courses-jump">
@@ -169,7 +173,7 @@
         <div id='course'>
             
             <div id='course-image'>
-                <img src='./images/courses/brovchuk_larysa.jpg'/>
+                <img loading='lazy' src='./images/courses/brovchuk_larysa_400x561.jpg' alt='Фото автора курсу Бровчук Лариси'/>
                 <p>Автор курсу директор ТОВ "Кайроc-К"<br>Бровчук Лариса</p>
             </div>
             <div class='course-description'>
@@ -193,24 +197,22 @@
             
         </div> 
     </div>
-    <div id='liquidation'>
+    <div id='year_report'>
         <div class='article'>
-            <h3 class='section-header'>Ліквідація підприємства</h3>
+            <h3 class='section-header'>Перевірка та подання річної звітності підприємств</h3>
             <div class='line-divider'></div>
-            <p>Якщо бізнес вичерпав себе, вам надалі не цікаво працювати в цьому
-            напрямку – варто ліквідуватись.</p> 
-            <p>Ми можемо запропонувати ліквідацію підприємства як у класичному 
-            варіанті, так і продаж частки у статутному капіталі іншому власнику.</p>
-            <p>У першому варіанті ми підкажемо як вийти з ліквідації з мінімальними
-            втратами та візьмемо на себе юридичну та бухгалтерську підтримку до 
-            закінчення процесу ліквідації (орієнтовно 6-12 місяців).</p>
-            <p>У другому варіанті – позбавимо вас турбот про підприємство<strong> за один
-            день</strong>.  Від вас потрібні установчі документи (статут, протоколи або 
-            рішення), документи що підтверджують фінансовий стан за попередні 
-            періоди та первинна документація. Після вивчення документів та 
-            погодження ціни – підписуємо договір про продаж частки у статутному 
-            капіталі – і Ви вільні від своїх обов’язків.</p>
-            
+            <p>Замовивши таку послугу, ви будете знати реальний стан справ на фірмі ще до кінця року. 
+                А також це можливість виправити недоліки без шкоди для підприємства.</p>
+            <p>Зазвичай багато власників фірм не дуже добре орієнтуються, що у них відбувається 
+                у бухгалтерському обліку. Наші фахівці проводять перевірку від 2 тижнів і до 2 місяців. Усе
+                залежить від того, чи потрібно відновлювати облік і за який період. </p>
+            <p>Річний фінансовий звіт готують <strong>до 28 лютого</strong>, а декларацію 
+                з податку на прибуток – <strong>до 1 березня</strong>. Однак варто розуміти, що за місяць 
+                жодна фірма не зможе якісно підготувати ці документи, особливо якщо бухгалтерський 
+                облік не вівся належним чином.</p>
+            <p>Фахівці ТОВ «Кайрос-К» працюють професійно та конфіденційно!</p>
+            <p>За додатковою інформацією можна звертатися за номером телефона: 098 024 5504.</p>
+            <p>Вартість: складання та подача звітності для ФОП і підприємств - від <strong>250 грн за звіт.</strong></p>
         </div>
     </div>
     <div id='registration'>
@@ -253,26 +255,6 @@
             
         </div>
     </div>
-    <div id="insurance">
-        <div class='article'>
-            <h3 class='section-header'>Страхування працівників</h3>
-            <div class='line-divider'></div>
-            <p>Несприятлива економічна ситуація в Україні призвела до відтоку кваліфікованих кадрів. 
-            Ми - роботодавці не завжди можемо прийняти працівника за трудовим договором, а тому 
-            погіршуємо його соціальні гарантії. Та зрештою й при сплаті ЄСВ з мінімальної 
-            зарплати - розуміємо що розраховувати на пенсію нашим працівникам скоріше й не доведеться.</p>
-            <p>Лікарняні, які пропонує нам держава - взагалі знущання над людьми. Тому одним з 
-            важелів завдяки якому ми можемо втримати фахівців на своєму підприємстві - це турбота про 
-            них - забезпечення додаткового приватного страхування прцівників. </p>
-            <p> Обходиться це значно дешевше ніж державне, причому застрахувати можна 
-            навіть неоформленого працівника.</p>
-            <p>Ми допоможемо вам зорієнтуватися між різними страховими компаніями та їхніми 
-            пропозиціями. Розкажемо про всі плюси і мінуси приватного страхування, адже 
-            озброєний - той хто поінформований. У разі вашого позитивного рішення - підберемо 
-            найкращий варіант саме для вас.  </p>
-        </div>
-    </div>
-    
     <div id="personnel">
         <div class='article'>
             <h3 class='section-header'>Відновлення кадрового обліку</h3>
@@ -325,6 +307,26 @@
             <p> При виявленні суттєвих недоліків наші спеціалісти за короткий 
             термін зможуть виправити їх. Ціна залежить від об’ємів та кількості 
             періодів відновлення. Обумовлюється індивідуально.</p>
+        </div>
+    </div>
+    <div id="liquidation">
+        <div class="article">
+            <h3 class="section-header">Ліквідація підприємства</h3>
+            <div class="line-divider"></div>
+            <p>Якщо бізнес вичерпав себе, вам надалі не цікаво працювати в цьому
+            напрямку – варто ліквідуватись.</p> 
+            <p>Ми можемо запропонувати ліквідацію підприємства як у класичному 
+            варіанті, так і продаж частки у статутному капіталі іншому власнику.</p>
+            <p>У першому варіанті ми підкажемо як вийти з ліквідації з мінімальними
+            втратами та візьмемо на себе юридичну та бухгалтерську підтримку до 
+            закінчення процесу ліквідації (орієнтовно 6-12 місяців).</p>
+            <p>У другому варіанті – позбавимо вас турбот про підприємство<strong> за один
+            день</strong>.  Від вас потрібні установчі документи (статут, протоколи або 
+            рішення), документи що підтверджують фінансовий стан за попередні 
+            періоди та первинна документація. Після вивчення документів та 
+            погодження ціни – підписуємо договір про продаж частки у статутному 
+            капіталі – і Ви вільні від своїх обов’язків.</p>
+            
         </div>
     </div>
 
@@ -389,56 +391,56 @@
     <h2 class='section-header'>Наша команда</h2>
     <div id="team">
         <div class="team-item">
-            <img src="./images/team/brovchuk_larysa_500x500.jpg" alt='Бровчук Лариса' />
+            <img loading='lazy' width="250" height="250" src="./images/team/brovchuk_larysa_250x250.jpg" alt='Бровчук Лариса' />
             <p class='team-item-name'>Бровчук Лариса</p>
             <p class='team-item-role'>Керівник ТОВ «Кайрос-К»</p>
             <p class='team-item-motto'>"Якщо хочеш іти швидко - йди сам. Якщо хочеш іти далеко – йдіть разом.  Вся сила в команді."</p>
         </div>
 
         <div class="team-item">
-            <img src="./images/team/bidzyura_anna_2_500x500.jpg" alt='Бідзюра Анна' />
+            <img loading='lazy' width="250" height="250" src="./images/team/bidzyura_anna_2_250x250.jpg" alt='Бідзюра Анна' />
             <p class='team-item-name'>Бідзюра Анна</p>
             <p class='team-item-role'>Головний бухгалтер ТОВ «Кайрос-К»</p>
             <p class='team-item-motto'>"No pain, no gain"</p>
         </div>
 
         <div class="team-item">
-            <img src="./images/team/gumenyuk_oksana_500x500.jpg" alt='Гуменюк Оксана' />
+            <img loading='lazy' width="250" height="250" src="./images/team/gumenyuk_oksana_250x250.jpg" alt='Гуменюк Оксана' />
             <p class='team-item-name'>Гуменюк Оксана</p>
             <p class='team-item-role'>Бухгалтер по розрахунках з заробітної плати ТОВ «Кайрос-К»</p>
             <p class='team-item-motto'>"Якщо не спробуєш - не досягнеш мети."</p>
         </div>
 
         <div class="team-item">
-            <img src="./images/team/miraliyeva_nina_500x500.jpg" alt='Міралієва Ніна' />
+            <img loading='lazy' width="250" height="250" src="./images/team/miraliyeva_nina_250x250.jpg" alt='Міралієва Ніна' />
             <p class='team-item-name'>Міралієва Ніна</p>
             <p class='team-item-role'>Інспектор з кадрів ТОВ «Кайрос-К»</p>
             <p class='team-item-motto'>"Все можливо, на неможливе просто потрібно більше часу!"</p>
         </div>
 
         <div class="team-item">
-            <img src="./images/team/broyakova_liliya_500x500.jpg" alt='Броякова Лілія' />
+            <img loading='lazy' width="250" height="250" src="./images/team/broyakova_liliya_250x250.jpg" alt='Броякова Лілія' />
             <p class='team-item-name'>Броякова Лілія</p>
             <p class='team-item-role'>Бухгалтер з обліку ПДВ та екпортно-імпортних операцій</p>
             <p class='team-item-motto'>"Не зважаючи на обставини рухатися вперед!"</p>
         </div>
 
         <div class="team-item">
-            <img src="./images/team/ryabushets_iryna_2_500x500.jpg" alt='Рабушець Ірина' />
+            <img loading='lazy' width="250" height="250" src="./images/team/ryabushets_iryna_250x250.jpg" alt='Рабушець Ірина' />
             <p class='team-item-name'>Рабушець Ірина</p>
             <p class='team-item-role'>Бухгалтер з обліку основних засобів та розрахункових операцій</p>
             <p class='team-item-motto'>"Майбутнє залежить від того, що ти робиш сьогодні."</p>
         </div>
 
         <div class="team-item">
-            <img src="./images/team/dionisyeva_lyudmyla_500x500.jpg" alt='Діонісьєва Людмила' />
+            <img loading='lazy' width="250" height="250" src="./images/team/dionisyeva_lyudmyla_250x250.jpg" alt='Діонісьєва Людмила' />
             <p class='team-item-name'>Діонісьєва Людмила</p>
             <p class='team-item-role'>Бухгалтер  з обліку ПДВ та експортно-імпортних операцій</p>
             <p class='team-item-motto'>"Варто тільки повірити, що ви можете - і ви вже на півдороги до цілі."</p>
         </div>
 
         <div class="team-item">
-            <img src="./images/team/basovets_yuliya_500x500.jpg" alt='Басовець Юлія' />
+            <img loading='lazy' width="250" height="250" src="./images/team/basovets_yuliya_250x250.jpg" alt='Басовець Юлія' />
             <p class='team-item-name'>Басовець Юлія</p>
             <p class='team-item-role'>Референт ТОВ «Кайрос-К»</p>
             <p class='team-item-motto'>"Не варто марнувати життя на нездійсненні мрії. Краще менше планувати і більше робити."</p>
@@ -448,25 +450,25 @@
     <div id="last_posts">
         <div class='post'>
             <a href='./blog/riznytsia-mizh-pidpriemtsem-i-pidpryiemstvom.html' target="_blank">
-            <img src="./images/blog/entrepreneur.jpg" alt="Форми господарювання при реєстрації бізнесу"></img>
+            <img loading='lazy' src="./images/blog/entrepreneur.jpg" alt="Форми господарювання при реєстрації бізнесу"></img>
             <h4 class='post_title'>Яку форму господарювання обрати при реєстрації - підприємець, чи підприємство?</h4>
             </a>
         </div>
         <div class='post'>
             <a href='./blog/yak-sklasty-finansovu-zvitnist-pravylno.html' target="_blank">
-            <img src="./images/blog/annual_report.jpg" alt="Як зробити бухгалтерську звітність в 1С"></img>
+            <img loading='lazy' src="./images/blog/annual_report.jpg" alt="Як зробити бухгалтерську звітність в 1С"></img>
             <h4 class='post_title'>Шпаргалка головного бухгалтера. Як скласти фінансову звітність в 1С на 99% правильно?</h4>
             </a>
         </div>
         <div class='post'>
             <a href='./blog/oblik-u-pidpryiemtsiv-na-yedynomu-podatku.html' target="_blank">
-            <img src="./images/blog/entrepreneur_accounting.jpg" alt="Бухгалтерський облік підприємця"></img>
+            <img loading='lazy' src="./images/blog/entrepreneur_accounting.jpg" alt="Бухгалтерський облік підприємця"></img>
             <h4 class='post_title'>Облік у підприємців на єдиному податку. Що потрібно робити бухгалтеру?</h4>
             </a>
         </div>
         <div class='post'>
             <a href='./blog/porivniannia_derzhavnogo_ta_pryvatnogo_strahuvannia.html' target="_blank">
-            <img src="./images/blog/generations_insurance.jpg" alt="Державне та приватне страхування - плюси і мінуси"></img>
+            <img loading='lazy' src="./images/blog/generations_insurance.jpg" alt="Державне та приватне страхування - плюси і мінуси"></img>
             <h4 class='post_title'>Страхування державне і приватне в 2019 році - нові варіанти інвестицій в життя</h4>
             </a>
         </div>
@@ -492,7 +494,7 @@
                 </svg>
             </div>
                 <h3>Передзвоніть нам</h3>
-                <p>+38 066 994 53 81<br>+38 098 024 55 04</p>
+                <p><a onclick="return gtag_report_conversion('tel:+380669945381');" href="tel:+380669945381" >+38 066 994 53 81</a><br>+38 098 024 55 04</p>
         </div>
         <div class='contacts-item'>
             <div class='box-icon'>
@@ -513,22 +515,22 @@
             </div>
             <h3>Ми в соцмережах:</h3>
             <div id='social-links'>
-                <a target="_blank" href="https://www.facebook.com/%D0%9A%D0%B0%D0%B9%D1%80%D0%BE%D1%81-%D0%9A-101658971194187/" ><img src="./images/f_logo_RGB-Blue_40x40.png" alt="Facebook Logo"/></a>
-                <a target="_blank" href="https://instagram.com/kairos.k.rv?igshid=15s2pk7fwsdpp"><img src="./images/Instagram_icon_40x40.png" alt="Instagram Logo"/></a>
+                <a target="_blank" href="https://www.facebook.com/%D0%9A%D0%B0%D0%B9%D1%80%D0%BE%D1%81-%D0%9A-101658971194187/" rel="noopener"><img loading="lazy" src="./images/f_logo_RGB-Blue_40x40.png" alt="Facebook Logo"/></a>
+                <a target="_blank" href="https://instagram.com/kairos.k.rv?igshid=15s2pk7fwsdpp" rel="noopener"><img loading="lazy" src="./images/Instagram_icon_40x40.png" alt="Instagram Logo"/></a>
             </div>
         </div>
     </div>
     <div class="clear"></div>
     <div>
-        <iframe title="Наш офіс на карті" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.131986597894!2d26.248121715256975!3d50.624664879499726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f1354aec8e3cb%3A0xadf03c43ad4497a6!2sSymona+Petlyury+St%2C+35%2C+Rivne%2C+Rivnens&#39;ka+oblast%2C+33000!5e0!3m2!1sen!2sua!4v1546595418752" 
+        <iframe loading="lazy" title="Наш офіс на карті" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.131986597894!2d26.248121715256975!3d50.624664879499726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f1354aec8e3cb%3A0xadf03c43ad4497a6!2sSymona+Petlyury+St%2C+35%2C+Rivne%2C+Rivnens&#39;ka+oblast%2C+33000!5e0!3m2!1sen!2sua!4v1546595418752" 
         width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     </div>
 </footer>
 <div class='copyright'>&nbsp;&nbsp;&copy;2019&nbsp;ТОВ "Кайроc-К"</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="./js/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./js/main.js"></script>
 
 </body>
