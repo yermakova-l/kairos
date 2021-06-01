@@ -595,6 +595,152 @@ footer iframe {
 .blog-article table th {
   vertical-align: top;
 }
+/************ Button Call To Action*********************/
+.calltoaction {
+  text-align: center;
+  margin-top: 40px;
+}
+.calltoaction button {
+  margin: 20px 0 60px 0;
+  width: 250px;
+  height: 60px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border: none;
+  color: white;
+  font-size: 20px;
+  animation: pulse_animation 2s infinite;
+}
+@keyframes pulse_animation {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.08);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.calltoaction button:hover {
+  /*background: #811b7e;*/
+  background: #607538;
+  animation: none;
+}
+/************ Modal Call Back********************/
+
+.thankyou {
+  display: none;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+/* The Close Button */
+.close {
+  color: #ccc;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+#contact_form_small {
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+}
+#contact_form_small h3 {
+  color: #811b7e;
+  margin-top: 10px;
+}
+#myModal .modal-content {
+  background-color: #fdfdfd;
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+}
+#myModal .modal-content .inner-wrap {
+  margin-bottom: 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+.inner-wrap label {
+  display: block;
+  color: #811b7e;
+  margin-bottom: 10px;
+}
+.inner-wrap input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-width: 0 0 2px 0;
+  border-color: transparent transparent #811b7e transparent;
+}
+.inner-wrap input:focus-within {
+  outline: none;
+  border-width: 0 0 2px 0;
+  border-color: transparent transparent #2e062d transparent;
+}
+
+#myModal .modal-content .button-section {
+  text-align: center;
+  padding: 10px;
+}
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+#myModal .modal-content .button-section input[type="submit"] {
+  background-color: #fd7e14;
+  padding: 8px 20px 8px 20px;
+  color: #fff;
+  font-size: 15px;
+  margin: 20px auto 0 auto;
+  width: 250px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+}
 
 @media screen and (max-width: 816px) {
   /********** HEADER - MAIN NAVIGATION ************/
@@ -913,12 +1059,18 @@ footer iframe {
   .blog-article-body {
     text-align: justify;
   }
+  .modal {
+    padding-top: 160px;
+  }
 }
 
 @media screen and (min-width: 817px) and (max-width: 1200px) {
   #contacts .contacts-item {
     width: 45%;
     height: auto;
+  }
+  .modal {
+    padding-top: 160px;
   }
 }
 
@@ -976,5 +1128,12 @@ footer iframe {
   .master_class_item img {
     width: 500px;
     height: 502px;
+  }
+  .modal {
+    padding-top: 250px;
+  }
+  .calltoaction button {
+    width: 300px;
+    height: 80px;
   }
 }
