@@ -1495,3 +1495,40 @@ input[type="range"] {
   color: white;
   font-size: 20px;
 }
+
+/* Logic Block from artile inner audit  */
+@media screen and (max-width: 320px) {
+}
+.blog-article-logic {
+  padding: 2rem 1rem;
+  background-color: #efefef;
+  border-radius: 0.3rem;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+.blog-article-logic input {
+  width: 100%;
+  height: 42px;
+  border: none;
+  margin: 15px 0 20px 0;
+}
+.blog-article-logic label {
+  width: 100%;
+  display: block;
+}
+.blog-article-logic .blog-article-logic-instruction {
+  font-size: 12px;
+  font-style: italic;
+  color: #777;
+}
+.blog-article-logic button {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: 42px;
+  border: none;
+  background-color: #fd7e14;
+  color: white;
+  margin: 20px auto;
+  font-size: 20px;
+}
